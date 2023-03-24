@@ -9,7 +9,7 @@
         "docker"
       ],
       "matchPackageNames": [
-        "ruby"
+        "ruby:3.2.1-alpine"
       ],
       "versioning": [
 	"loose"

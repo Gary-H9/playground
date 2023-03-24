@@ -11,14 +11,9 @@
       "matchPackageNames": [
         "ruby"
       ],
-      "depType": "dev",
-      "rangeStrategy": "auto",
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": false,
-      "enabled": true
+      "versioning": [
+	"semver"
+      ]
     }
   ]
 }

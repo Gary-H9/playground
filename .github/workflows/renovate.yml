@@ -1,9 +1,14 @@
 name: Renovate
-on:
-  schedule:
+# on:
+# schedule:
     # The "*" (#42, asterisk) character has special semantics in YAML, so this
     # string has to be quoted.
-    - cron: '40 11 * * *'
+    #   - cron: '40 11 * * *'
+
+on:
+  push:
+    branches:
+      - "main"
 jobs:
   renovate:
     runs-on: ubuntu-latest

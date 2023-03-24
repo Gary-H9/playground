@@ -1,8 +1,14 @@
 {
-  "packageRules": [
-    {
-      "matchDatasources": ["docker"],
-      "matchPackageNames": ["ruby"]
-    }
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+      {
+        "matchDatasources": [
+          "docker"
+        ],
+        "matchPackageNames": [
+          "ruby"
+        ]
+      }
+    ]
+  }
 }

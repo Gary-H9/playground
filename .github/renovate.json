@@ -3,11 +3,6 @@
   "repositories": [
     "Gary-H9/playground"
   ],
-  "workflowRules": [
-    {
-      "matchUpdateTypes": ["pin"]
-    }
-  ],
   "packageRules": [
     {
       "matchDatasources": [

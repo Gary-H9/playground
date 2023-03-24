@@ -3,10 +3,6 @@
   "repositories": [
     "Gary-H9/playground"
   ],
-  "commitAuthor": {
-    "email": "you@example.com",
-    "name": "Your Name"
-  },
   "packageRules": [
     {
       "matchDatasources": [

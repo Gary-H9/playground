@@ -4,6 +4,8 @@ The purpose of this repository is to test Renovate monitoring of Dockerfiles. An
 
 If a PR is created by Renovate but isn't as desired, it should be closed and renamed. 
 
-Currently PRs want to create `3.2.1-alpine3.16 -> 3.2.1` and not `3.2.1-alpine3.16 -> 3.2.1-alpine3.17` which is what I'm aiming for. 
+Currently PRs want to create `3.2.1-alpine3.16 -> 3.2.1` and not `3.2.1-alpine3.16 -> 3.2.1-alpine3.17` which is what I'm aiming for. We may need to use Regex to resolve this. 
 
-📝 Renovate [Documentation](https://docs.renovatebot.com/docker/#version-compatibility)
+📝 Renovate Documentation:
+- [Docker](https://docs.renovatebot.com/docker/#version-compatibility)
+- [Versioning](https://docs.renovatebot.com/modules/versioning/#versioning)
